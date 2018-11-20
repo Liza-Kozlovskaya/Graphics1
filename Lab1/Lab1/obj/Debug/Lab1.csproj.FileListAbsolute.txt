@@ -1,0 +1,16 @@
+C:\Users\A-Servis\source\repos\графика\Lab1\Lab1\bin\Debug\Lab1.exe.config
+C:\Users\A-Servis\source\repos\графика\Lab1\Lab1\bin\Debug\Lab1.exe
+C:\Users\A-Servis\source\repos\графика\Lab1\Lab1\bin\Debug\Lab1.pdb
+C:\Users\A-Servis\source\repos\графика\Lab1\Lab1\obj\Debug\Lab1.csprojResolveAssemblyReference.cache
+C:\Users\A-Servis\source\repos\графика\Lab1\Lab1\obj\Debug\Lab1.Form1.resources
+C:\Users\A-Servis\source\repos\графика\Lab1\Lab1\obj\Debug\Lab1.Properties.Resources.resources
+C:\Users\A-Servis\source\repos\графика\Lab1\Lab1\obj\Debug\Lab1.csproj.GenerateResource.cache
+C:\Users\A-Servis\source\repos\графика\Lab1\Lab1\obj\Debug\Lab1.csproj.CoreCompileInputs.cache
+C:\Users\A-Servis\source\repos\графика\Lab1\Lab1\obj\Debug\Lab1.exe
+C:\Users\A-Servis\source\repos\графика\Lab1\Lab1\obj\Debug\Lab1.pdb
+C:\Users\A-Servis\source\repos\графика\Lab1\Lab1\obj\Debug\Lab1.Form4.resources
+C:\Users\A-Servis\source\repos\графика\Lab1\Lab1\obj\Debug\Lab1.Form5.resources
+C:\Users\A-Servis\source\repos\графика\Lab1\Lab1\obj\Debug\Lab1.Масштабирование.resources
+C:\Users\A-Servis\source\repos\графика\Lab1\Lab1\obj\Debug\Lab1.Медианный.resources
+C:\Users\A-Servis\source\repos\графика\Lab1\Lab1\obj\Debug\Lab1.Поворот.resources
+C:\Users\A-Servis\source\repos\графика\Lab1\Lab1\obj\Debug\Lab1.Мультипликативный.resources

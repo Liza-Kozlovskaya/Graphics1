@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A69D3247-0EA3-41B9-BCD6-AEA43D783711}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Lab1</RootNamespace>
+    <AssemblyName>Lab1</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Выбор функции.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Выбор функции.Designer.cs">
+      <DependentUpon>Выбор функции.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Масштабирование.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Масштабирование.Designer.cs">
+      <DependentUpon>Масштабирование.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Медианный.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Медианный.Designer.cs">
+      <DependentUpon>Медианный.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Мультипликативный.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Мультипликативный.Designer.cs">
+      <DependentUpon>Мультипликативный.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Поворот.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Поворот.Designer.cs">
+      <DependentUpon>Поворот.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Монохромный.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Монохромный.Designer.cs">
+      <DependentUpon>Монохромный.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Выбор фильтра.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Выбор фильтра.Designer.cs">
+      <DependentUpon>Выбор фильтра.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Выбор функции.resx">
+      <DependentUpon>Выбор функции.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Масштабирование.resx">
+      <DependentUpon>Масштабирование.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Медианный.resx">
+      <DependentUpon>Медианный.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Мультипликативный.resx">
+      <DependentUpon>Мультипликативный.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Поворот.resx">
+      <DependentUpon>Поворот.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Монохромный.resx">
+      <DependentUpon>Монохромный.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Выбор фильтра.resx">
+      <DependentUpon>Выбор фильтра.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
